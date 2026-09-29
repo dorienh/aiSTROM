@@ -1,130 +1,140 @@
-# aiSTROM: an AI strategy toolkit
+# aiSTROM: turn AI ambition into an implementation strategy
 
-**Turn an AI opportunity into a practical implementation plan.**
+**Choose worthwhile AI projects. Expose overlooked dependencies. Turn decisions into actions.**
 
-aiSTROM helps teams connect business goals with the data, people, technology and organisational changes needed to deliver value from AI.
+**Version 1.0 · Created September 2026 · Dorien Herremans**
 
-This toolkit builds on the [original 2021 aiSTROM framework](https://doi.org/10.1109/ACCESS.2021.3127548), extending its questions to LLMs and agents while retaining its relevance to predictive models, custom training and other AI implementations.
+AI offers a substantial business opportunity, but adoption alone does not establish value:
 
-**[Project website](https://dorienherremans.com/aiSTROM)** · **[Original paper](https://doi.org/10.1109/ACCESS.2021.3127548)**
-
-## Why use aiSTROM?
-
-A working demonstration leaves many implementation questions unanswered.
-
-Is this the right problem to solve? Is the necessary data available and usable? Who will maintain the system? Would existing software meet the need? How will people's work change? What evidence would justify further investment?
-
-aiSTROM gives business, technical and domain specialists a shared structure for answering these questions. It helps teams:
-
-- Compare opportunities before committing to a particular technology.
-- Identify missing data, skills, ownership and infrastructure.
-- Connect technical performance to business outcomes and operating costs.
-- Define appropriate autonomy, oversight and recovery arrangements.
-- Recognise reusable data and capabilities that could benefit future projects.
-- Record decisions, uncertainties and the evidence needed to proceed.
-
-The aim is a better-informed decision: investigate, pilot, revise, defer or stop.
-
-## Start here
-
-| Resource | Purpose |
+| Opportunity | Implementation gap |
 |---|---|
-| **[Starter guide](starter-kit/aiSTROM-starter-kit.pdf)** | An introduction, suggested first session and worked procurement example. |
-| **[Implementation workbook](starter-kit/aiSTROM-implementation-workbook.pdf)** | Detailed questions, 28 subsection response blocks, specialist sheets and decision records. |
-| **[Fillable project canvas](starter-kit/aiSTROM-canvas.pdf)** | A one-page summary of your conclusions and next steps. |
-| **[Completed procurement canvas](starter-kit/examples/procurement-canvas.pdf)** | An illustration of how the summary can look. |
+| **66% reported revenue increases** in business units using generative AI for marketing and sales in McKinsey's July 2024 survey. | **37% reported a positive enterprise-level profit impact** from AI in McKinsey's 2026 survey. |
 
-**Suggested sequence:** read the starter guide → work through the relevant workbook sections → summarise on the canvas.
+The first figure concerns respondents whose organisations used generative AI in that function; the second concerns reported earnings before interest and tax (EBIT). They measure different outcomes in different surveys, not a causal comparison. [Revenue findings](https://www.mckinsey.com/featured-insights/charts/gen-ais-roi) · [2026 findings](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai).
 
-The canvas is the summary of your assessment. The detailed reasoning belongs in the workbook or linked project records.
+The cost of poor implementation can be substantial. RAND's 2024 report cites estimates that **more than 80% of AI projects fail**. That is a cited estimate, not a failure rate measured by RAND. Its own interviews with 65 experienced practitioners identified recurring problems: misunderstood objectives, inadequate data, technology-first choices, insufficient infrastructure and tasks beyond the technology's capabilities. [RAND report](https://www.rand.org/pubs/research_reports/RRA2680-1.html).
 
-## What does the framework cover?
+**aiSTROM was developed to put strategic choices at the centre of AI implementation.** Published in [IEEE Access in 2021](https://doi.org/10.1109/ACCESS.2021.3127548), the framework connects the opportunity to seven dimensions: data, team, organisation, technology, value, risk and education. This visual toolkit translates those dimensions into decisions your business, domain and technical colleagues can work through together.
 
-Begin by identifying and comparing opportunities. Then examine seven connected areas.
+Use it to decide which opportunities deserve investment, what capabilities and information are missing, how success will be measured, and what must happen before the next commitment. It covers **predictive, generative and agentic AI**, from forecasting and computer vision to LLMs and agents. The research above motivates careful implementation; it does not measure the toolkit's effectiveness.
 
-| Area | Decisions to explore |
+## Start here — three PDFs, no installation
+
+**[Download the complete toolkit ZIP](https://raw.githubusercontent.com/dorienh/aiSTROM/main/aiSTROM-visual-toolkit-v1.0.zip)** — all three PDFs, the guide, previews and instructor materials.
+
+1. **[Visual toolkit](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/aiSTROM-visual-toolkit.pdf)** — an overview plus seven fillable dimension sheets.
+2. **[Completed procurement example](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/examples/procurement-visual-toolkit.pdf)** — all eight sheets filled in, with assumptions and unresolved questions made explicit.
+3. **[Instructor guide](https://raw.githubusercontent.com/dorienh/aiSTROM/main/instructor-kit/aiSTROM-instructor-guide.pdf)** — a workshop plan, exercises and facilitation prompts.
+
+The PDF links bypass GitHub's preview. Save them and open the fillable sheets in a form-capable reader. For a one-page discussion, use page 1 of the visual toolkit.
+
+## See how it works
+
+### Bring the decisions together
+
+![aiSTROM overview canvas with opportunity, seven strategy dimensions and the next decision.](https://raw.githubusercontent.com/dorienh/aiSTROM/main/assets/worksheet-overview.png)
+
+*The overview gives the team a shared view of the opportunity and the decisions that need to fit together. [Open the fillable toolkit](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/aiSTROM-visual-toolkit.pdf).*
+
+### Go beneath each headline
+
+![Completed Data sheet showing sources, acquisition, quality, privacy, storage and lifecycle decisions for a fictional procurement project.](https://raw.githubusercontent.com/dorienh/aiSTROM/main/assets/worksheet-data-example.png)
+
+*Six subdimensions on the Data sheet turn “do we have the data?” into specific choices, strengths, gaps and actions. A completed card may still be marked unknown. This procurement example is fictional; no measured deployment results are claimed.*
+
+## The framework behind the sheets
+
+<img src="https://raw.githubusercontent.com/dorienh/aiSTROM/main/assets/aistrom-roadmap.png" alt="Original aiSTROM roadmap linking goals with data, the AI team, organisation, technologies, KPIs, risk and cultural change." width="480">
+
+*Original aiSTROM roadmap, Herremans (2021), Figure 1, reproduced from the [open author version](https://arxiv.org/abs/2107.06071) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Cropped to the figure; diagram content unchanged. The visual worksheets are a practical adaptation, with contemporary prompts identified separately.*
+
+## What your team should leave with
+
+- **A clearer investment choice:** the problem, value, scope and alternatives.
+- **Connected implementation decisions:** how data, people, technology and operating arrangements affect one another.
+- **An evidence plan:** what to test or investigate, with owners and dates.
+- **A justified next step:** explore, pilot, revise, defer or stop.
+
+Work through the most consequential questions first. The aim is to improve the next decision, not to fill every box in one meeting.
+
+## How the sheets fit together
+
+| Sheet | Focus |
 |---|---|
-| **1. Data** | Sources, acquisition, quality, provenance, privacy, permitted uses, storage and future reuse. Distinguish training, retrieval, evaluation and operational data. |
-| **2. Team** | Domain and technical expertise, hiring, upskilling, external support, maintenance and meaningful human review. |
-| **3. Organisation** | Ownership, budget, centralised or distributed expertise, build/buy arrangements, development processes and ongoing support. |
-| **4. Technology** | Architecture, model sourcing, adapters and fine-tuning, hosting, explainability, integration and agent permissions. |
-| **5. KPIs and value** | Business outcomes, technical quality, baselines, evaluation, lifecycle costs and continuation criteria. |
-| **6. Risks and benefits** | Performance uncertainty, safety, security, bias, accountability, SWOT, incident response and recovery. |
-| **7. Culture and education** | Adoption, changing responsibilities, staff training, feedback and shared organisational learning. |
+| **Overview** | Frame an opportunity, capture conclusions across seven dimensions, and record the next decision. |
+| **1. Data** | Sources and future value; collection/acquisition; quality; privacy; storage; lifecycle and reuse. |
+| **2. The AI team** | Domain expertise; technical skills; communication/design; obtaining expertise; retention; capacity. |
+| **3. Organising AI development** | Team positioning; authority; portfolio; existing services; build/partner/acquire; agile delivery. |
+| **4. Technologies** | Approach and baseline; models/adaptation; explainability; human involvement; hosting; integration. |
+| **5. KPIs and value** | Strategic outcomes; customer value; processes; financial value; model performance; evidence and review. |
+| **6. Risk level and benefits** | Performance uncertainty; bias/ethics/safety; security; dependencies; benefits/risk appetite; SWOT. |
+| **7. Culture and education** | AI literacy; roles; participation; shared expertise; continuous education; adoption in practice. |
 
-These areas influence one another. Fine-tuning creates data and evaluation requirements. Increased autonomy changes oversight needs. A faster workflow may require new responsibilities and training before its benefits can be realised.
+The original paper supplies the seven dimensions and many of their underlying topics. The six cards on each sheet are practical groupings, not a claim that the paper used these exact headings. Cards identify their source section or mark an added prompt. Conditional prompts at the bottom address particular system types without making every project an agent project.
 
-## What should you complete?
+## Fill in a card
 
-The workbook contains **28 numbered subsections**, each with questions, suggested evidence and a specific decision to make.
+Each dimension has six cards. Read the short prompt and record:
 
-For each relevant subsection, record:
+1. **Status:** `+ Supported`, `- Gap`, `? Unknown`, or `N/A`.
+2. **Decision:** use the specific field label to record the proposed choice, measure or arrangement.
+3. **+ Strength:** a capability, advantage or supporting evidence you can build on.
+4. **- Gap:** a missing capability, constraint or unresolved concern.
+5. **Next action:** a concrete step, responsible person and date.
 
-1. **Choice and rationale:** what you propose and why.
-2. **Evidence and assumptions:** supporting sources, dates and what remains unverified.
-3. **Open questions and actions:** what needs investigation and by when.
-4. **Owner, review date and status:** who is responsible and whether the decision is proposed, agreed or blocked.
+A card may have both strengths and gaps. Choose the status that best describes readiness for the next decision; keep both sides visible. Use `? Unknown` when evidence is missing, and explain `N/A`. The signs are discussion aids: do not add them into a score or let several strengths cancel an unresolved prerequisite.
 
-Use “not applicable” with a reason when appropriate. Link existing organisational records instead of duplicating them.
+For example, on **Data → Collect, acquire or label**:
 
-The workbook also includes specialist records for:
+- **Decision:** use internal maintenance records and have a technician label failure causes.
+- **+ Strength:** three years of linked asset and repair records.
+- **- Gap:** inconsistent failure codes; annotation effort is unknown.
+- **Status:** `? Unknown`.
+- **Next action:** maintenance lead samples 50 records and estimates labelling effort by the agreed date.
 
-- **Models, deployment and data handling:** provider arrangements, retention, training use, access, operating responsibilities and exit options.
-- **Agent authority, security and safety:** reachable systems, credentials, permitted actions, failure scenarios, independent controls and recovery.
-- **Evaluation and rollout:** test cases, reference judgements, thresholds, results and the scope those results support.
+This is a fictional illustration, not a reported deployment.
 
-Additional worksheets cover opportunity comparison, action permissions, pilot planning, costs and decision tracking.
+## Follow a complete example
 
-## Run your first session
+The completed procurement example follows the same eight-sheet layout as the blank toolkit. All 42 cards include a decision, strength, gap, status and next action. The overview shows how these combine into a bounded offline experiment.
 
-Allow approximately **60 minutes** to identify the next decisions and investigations. Completing the full assessment will usually require additional work.
+It is a **fictional teaching scenario**. Roles, capabilities, targets and W1-W3 dates are illustrative assumptions; no measured performance or deployment is claimed. `+ Supported` indicates support within the scenario for that planning decision, not proof that the system works. Many cards correctly remain `? Unknown` or `- Gap` after being filled in. A completed sheet is not the same as a resolved issue.
 
-Invite people who understand the workflow, business objective and technical options. Include data, security and other specialists where their decisions are needed.
+Use it to understand the level of detail, not to copy its thresholds or choices into another project.
 
-Bring a concrete problem, examples of current work and any available baseline evidence.
+## Suggested working session
 
-| Time | Activity |
-|---|---|
-| 10 minutes | Compare opportunities and simpler alternatives. |
-| 10 minutes | Identify data needs, skills and organisational ownership. |
-| 15 minutes | Discuss technology, deployment, permissions and consequential failures. |
-| 10 minutes | Define intended value and the evidence needed to test it. |
-| 10 minutes | Identify investigation, training and operational work. |
-| 5 minutes | Record the next decision, actions, owners and review date. |
+1. **Frame the opportunity.** Name the problem, affected people, desired outcome, scope and simpler alternatives in the overview's first box.
+2. **Scan the seven dimensions.** Bring together business, domain and technical perspectives. Start with the sheets that could most change your decision.
+3. **Investigate the gaps.** The first conversation will surface questions; collecting evidence can happen afterwards. Use short entries and link existing records rather than writing essays.
+4. **Connect the dimensions.** A choice to fine-tune affects data, skills, hosting and costs. A new workflow affects roles, education and KPIs. Record dependencies at the bottom of each sheet.
+5. **Return to the overview.** Capture the main conclusions and decide whether to explore, pilot, revise, defer or stop. Name the next evidence, owner and review date.
 
-Keep facts, assumptions and unknowns distinguishable. An unanswered question should become an action, rather than an invented answer.
+Use one set per opportunity. Compare multiple overview canvases when making portfolio decisions. Revisit affected sheets when goals, data, people, models, providers or operating conditions change.
 
-## Worked example: procurement
+## Using the files
 
-The main example follows a manufacturer exploring AI assistance for comparing supplier quotations.
+All eight sheets are interactive PDF forms, designed at **A3 landscape** for a workshop table or screen. Print at A3 for comfortable handwriting. A4 printing reduces both text and writing space.
 
-It considers business value, data availability, technical choices, staff expertise, evaluation and operating boundaries. The initial experiment focuses on comparison and drafting; autonomous ordering requires a separate decision.
+Use a PDF reader that supports forms; save and reopen your copy to check that entries were retained. Keep entries concise and put longer evidence in linked project records. The overview is page 1 of the toolkit; print that page alone when you only need the summary.
 
-The example is **fictional**. Its quantities and thresholds illustrate planning choices; they are not measured results or recommended benchmarks for every organisation.
+## For instructors and facilitators
 
-## Working with the PDFs
+The [instructor guide](https://raw.githubusercontent.com/dorienh/aiSTROM/main/instructor-kit/aiSTROM-instructor-guide.pdf) includes a session plan, learning outcomes, discussion prompts, and predictive-AI and procurement exercises. Start with the visual sheets and use the guide to facilitate a class or workshop.
 
-- The **canvas is an interactive PDF form**, designed at A3 landscape size. Use a form-capable reader, then save and reopen your copy to check the entries.
-- The **guide and workbook are reading PDFs**, not interactive forms. Record detailed responses in your preferred document editor or project system, using the workbook's subsection identifiers.
-- Keep dated decisions and links to supporting evidence. Revisit them when goals, data, models, tools, permissions or workflows change.
+## Feedback
 
-## Feedback and case studies
-
-Feedback from actual use will help improve the toolkit. Useful observations include:
-
-- Which decision became clearer?
-- What dependency or opportunity had the team overlooked?
-- Did the assessment change the scope, approach or decision to proceed?
-- Which questions were unclear, repetitive or missing?
-- What happened when the team revisited its decision?
-
-Share feedback through the [project website](https://dorienherremans.com/aiSTROM). Remove confidential information from anything you share.
+What did the sheets help you notice? Which decision changed? Where did you need more space or a clearer prompt? Share feedback through the [project website](https://dorienherremans.com/aiSTROM), removing confidential information.
 
 ## Reference
 
-Herremans, D. (2021). **aiSTROM–A Roadmap for Developing a Successful AI Strategy.** *IEEE Access*, 9, 155826–155838.
+Herremans, D. (2021). **aiSTROM–A Roadmap for Developing a Successful AI Strategy.** *IEEE Access*, 9, 155826–155838. [Published paper](https://doi.org/10.1109/ACCESS.2021.3127548) · [Open author version](https://arxiv.org/abs/2107.06071).
 
-[Published paper](https://doi.org/10.1109/ACCESS.2021.3127548) · [Open author version](https://arxiv.org/abs/2107.06071)
+**Dorien Herremans · Version 1.0 · Created September 2026**
 
-**Author:** Dorien Herremans  
-**Toolkit edition:** LLMs and agents · v0.2
+## Reuse
+
+Toolkit materials use the repository's [MIT licence](https://github.com/dorienh/aiSTROM/blob/main/LICENSE). Include the licence notice with redistributed copies. The original roadmap image is separately attributed under CC BY 4.0; see [asset credits](https://github.com/dorienh/aiSTROM/blob/main/assets/README.md).
+
+The PDFs and instructor materials are ready to use. Download the toolkit, fill in the sheets and adapt the session to your project or class.
+

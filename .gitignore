@@ -1,0 +1,8 @@
+
+# Local build verification
+work/
+__pycache__/
+.DS_Store
+
+# Build sources are maintained outside this public repository
+tools/
