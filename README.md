@@ -23,7 +23,7 @@ Use it to decide which opportunities deserve investment, what capabilities and i
 **[Download the complete toolkit ZIP](https://raw.githubusercontent.com/dorienh/aiSTROM/main/aiSTROM-visual-toolkit-v1.0.zip)** — all three PDFs, the guide, previews and instructor materials.
 
 1. **[Visual toolkit](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/aiSTROM-visual-toolkit.pdf)** — an overview plus seven fillable dimension sheets.
-2. **[Completed procurement example](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/examples/procurement-visual-toolkit.pdf)** — all eight sheets filled in, with assumptions and unresolved questions made explicit.
+2. **[Completed purchasing strategy example](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/examples/procurement-visual-toolkit.pdf)** — all eight sheets assess whether and how AI could support a fictional manufacturer’s purchasing decisions.
 3. **[Instructor guide](https://raw.githubusercontent.com/dorienh/aiSTROM/main/instructor-kit/aiSTROM-instructor-guide.pdf)** — a workshop plan, exercises and facilitation prompts.
 
 The PDF links bypass GitHub's preview. Save them and open the fillable sheets in a form-capable reader. For a one-page discussion, use page 1 of the visual toolkit.
@@ -40,7 +40,7 @@ The PDF links bypass GitHub's preview. Save them and open the fillable sheets in
 
 ![Completed Data sheet showing sources, acquisition, quality, privacy, storage and lifecycle decisions for a fictional procurement project.](https://raw.githubusercontent.com/dorienh/aiSTROM/main/assets/worksheet-data-example.png)
 
-*Six subdimensions on the Data sheet turn “do we have the data?” into specific choices, strengths, gaps and actions. A completed card may still be marked unknown. This procurement example is fictional; no measured deployment results are claimed.*
+*Six subdimensions on the Data sheet turn “do we have the data?” into specific choices, strengths, gaps and actions. A completed card may still be marked unknown. This procurement example is a fictional strategic assessment, not a deployment or product comparison.*
 
 ## The framework behind the sheets
 
@@ -53,7 +53,7 @@ The PDF links bypass GitHub's preview. Save them and open the fillable sheets in
 - **A clearer investment choice:** the problem, value, scope and alternatives.
 - **Connected implementation decisions:** how data, people, technology and operating arrangements affect one another.
 - **An evidence plan:** what to test or investigate, with owners and dates.
-- **A justified next step:** explore, pilot, revise, defer or stop.
+- **A strategic direction:** invest, prepare, defer or reject, with conditions for the next stage.
 
 Work through the most consequential questions first. The aim is to improve the next decision, not to fill every box in one meeting.
 
@@ -76,39 +76,39 @@ The original paper supplies the seven dimensions and many of their underlying to
 
 Each dimension has six cards. Read the short prompt and record:
 
-1. **Status:** `+ Supported`, `- Gap`, `? Unknown`, or `N/A`.
-2. **Decision:** use the specific field label to record the proposed choice, measure or arrangement.
-3. **+ Strength:** a capability, advantage or supporting evidence you can build on.
-4. **- Gap:** a missing capability, constraint or unresolved concern.
-5. **Next action:** a concrete step, responsible person and date.
+1. **Readiness:** `+ Supported`, `- Gap`, `? Unknown`, or `N/A` for the evidence needed to make the next decision.
+2. **Strategic implication:** what AI would require, enable or change.
+3. **+ Upside or strength:** a potential benefit or capability to build on.
+4. **- Downside or gap:** a cost, dependency, limitation or missing capability.
+5. **Next strategic action:** evidence to gather, with an owner and review date.
 
 A card may have both strengths and gaps. Choose the status that best describes readiness for the next decision; keep both sides visible. Use `? Unknown` when evidence is missing, and explain `N/A`. The signs are discussion aids: do not add them into a score or let several strengths cancel an unresolved prerequisite.
 
 For example, on **Data → Collect, acquire or label**:
 
-- **Decision:** use internal maintenance records and have a technician label failure causes.
-- **+ Strength:** three years of linked asset and repair records.
-- **- Gap:** inconsistent failure codes; annotation effort is unknown.
-- **Status:** `? Unknown`.
-- **Next action:** maintenance lead samples 50 records and estimates labelling effort by the agreed date.
+- **Strategic implication:** training a custom purchasing model may require labelled decisions about acceptable substitutions; a service may need less training data but still receive proprietary documents.
+- **+ Upside:** buyers and engineers can define the labels and critical constraints.
+- **- Downside:** historical decisions and delivery outcomes are not linked, and supplier-document reuse rights are unclear.
+- **Readiness:** `? Unknown`.
+- **Next strategic action:** the data lead inventories usable records, labelling effort and rights before the company chooses a build or service route.
 
-This is a fictional illustration, not a reported deployment.
+This is a fictional illustration, not a reported deployment. The card compares routes and prerequisites; product reviews and trials come after the strategic direction is set.
 
 ## Follow a complete example
 
-The completed procurement example follows the same eight-sheet layout as the blank toolkit. All 42 cards include a decision, strength, gap, status and next action. The overview shows how these combine into a bounded offline experiment.
+The completed procurement example follows the same eight-sheet layout as the blank toolkit. Its 42 cards examine whether and how a fictional manufacturer should invest in AI for purchasing decisions. The overview connects requirements, upsides, downsides and unknowns into a conditional strategic direction. No product, provider or trial is selected.
 
-It is a **fictional teaching scenario**. Roles, capabilities, targets and W1-W3 dates are illustrative assumptions; no measured performance or deployment is claimed. `+ Supported` indicates support within the scenario for that planning decision, not proof that the system works. Many cards correctly remain `? Unknown` or `- Gap` after being filled in. A completed sheet is not the same as a resolved issue.
+It is a **fictional teaching scenario**. Roles, capabilities and organisational conditions are illustrative assumptions; no measured performance or deployment is claimed. `+ Supported` indicates a strength or known prerequisite within the scenario, not proof that AI will work. Many cards correctly remain `? Unknown` or `- Gap` after being filled in. A completed sheet is not the same as a resolved issue.
 
-Use it to understand the level of detail, not to copy its thresholds or choices into another project.
+Use it to understand the level of strategic reasoning, not to copy its assumptions or choices into another organisation.
 
 ## Suggested working session
 
 1. **Frame the opportunity.** Name the problem, affected people, desired outcome, scope and simpler alternatives in the overview's first box.
 2. **Scan the seven dimensions.** Bring together business, domain and technical perspectives. Start with the sheets that could most change your decision.
-3. **Investigate the gaps.** The first conversation will surface questions; collecting evidence can happen afterwards. Use short entries and link existing records rather than writing essays.
+3. **Compare upsides and downsides.** Ask what each route could enable, what it would cost or constrain, and which evidence is missing. Use short entries and link existing records rather than writing essays.
 4. **Connect the dimensions.** A choice to fine-tune affects data, skills, hosting and costs. A new workflow affects roles, education and KPIs. Record dependencies at the bottom of each sheet.
-5. **Return to the overview.** Capture the main conclusions and decide whether to explore, pilot, revise, defer or stop. Name the next evidence, owner and review date.
+5. **Return to the overview.** State whether to invest, prepare, defer or reject the opportunity. Name conditions, evidence, owner and review date for any later feasibility stage.
 
 Use one set per opportunity. Compare multiple overview canvases when making portfolio decisions. Revisit affected sheets when goals, data, people, models, providers or operating conditions change.
 
