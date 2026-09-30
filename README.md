@@ -22,8 +22,8 @@ Use it to decide which opportunities deserve investment, what capabilities and i
 
 **[Download the complete toolkit ZIP](https://raw.githubusercontent.com/dorienh/aiSTROM/main/aiSTROM-visual-toolkit-v1.0.zip)** — all three PDFs, the guide, previews and instructor materials.
 
-1. **[Visual toolkit](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/aiSTROM-visual-toolkit.pdf)** — an overview plus seven fillable dimension sheets.
-2. **[Completed purchasing strategy example](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/examples/procurement-visual-toolkit.pdf)** — all eight sheets assess whether and how AI could support a fictional manufacturer’s purchasing decisions.
+1. **[Visual toolkit](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/aiSTROM-visual-toolkit.pdf)** — an overview plus fourteen fillable detail pages covering seven dimensions.
+2. **[Completed expense-claims strategy example](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/examples/expense-claims-visual-toolkit.pdf)** — all fifteen pages assess whether and how a fictional company could improve employee expense claims.
 3. **[Instructor guide](https://raw.githubusercontent.com/dorienh/aiSTROM/main/instructor-kit/aiSTROM-instructor-guide.pdf)** — a workshop plan, exercises and facilitation prompts.
 
 The PDF links bypass GitHub's preview. Save them and open the fillable sheets in a form-capable reader. For a one-page discussion, use page 1 of the visual toolkit.
@@ -38,9 +38,15 @@ The PDF links bypass GitHub's preview. Save them and open the fillable sheets in
 
 ### Go beneath each headline
 
-![Completed Data sheet showing sources, acquisition, quality, privacy, storage and lifecycle decisions for a fictional procurement project.](https://raw.githubusercontent.com/dorienh/aiSTROM/main/assets/worksheet-data-example.png)
+![Completed first Data page showing sources, acquisition and quality decisions for a fictional expense-claims opportunity.](https://raw.githubusercontent.com/dorienh/aiSTROM/main/assets/worksheet-data-example.png)
 
-*Six subdimensions on the Data sheet turn “do we have the data?” into specific choices, strengths, gaps and actions. A completed card may still be marked unknown. This procurement example is a fictional strategic assessment, not a deployment or product comparison.*
+*The six Data cards span two pages. They compare options, assets, gaps and evidence. This completed example is a fictional strategic assessment, not a deployment or product comparison.*
+
+### Compare risk responses
+
+![Completed risk sheet showing safeguards and reversibility next to exposure and consequences.](https://raw.githubusercontent.com/dorienh/aiSTROM/main/assets/worksheet-risk-example.png)
+
+*On risk cards, the positive field records safeguards or the benefit at stake; the negative field records exposure and consequences. The decision is whether the remaining risk is acceptable for the value sought.*
 
 ## The framework behind the sheets
 
@@ -70,37 +76,27 @@ Work through the most consequential questions first. The aim is to improve the n
 | **6. Risk level and benefits** | Performance uncertainty; bias/ethics/safety; security; dependencies; benefits/risk appetite; SWOT. |
 | **7. Culture and education** | AI literacy; roles; participation; shared expertise; continuous education; adoption in practice. |
 
-The original paper supplies the seven dimensions and many of their underlying topics. The six cards on each sheet are practical groupings, not a claim that the paper used these exact headings. Cards identify their source section or mark an added prompt. Conditional prompts at the bottom address particular system types without making every project an agent project.
+The original paper supplies the seven dimensions and many of their underlying topics. The six cards across each dimension's two pages are practical groupings, not a claim that the paper used these exact headings. Cards identify their source section or mark an added prompt. Conditional prompts at the bottom address particular system types without making every project an agent project.
 
 ## Fill in a card
 
-Each dimension has six cards. Read the short prompt and record:
+Each dimension has six cards across two pages. The larger format gives three cards per page. For each question, record:
 
-1. **Readiness:** `+ Supported`, `- Gap`, `? Unknown`, or `N/A` for the evidence needed to make the next decision.
-2. **Strategic implication:** what AI would require, enable or change.
-3. **+ Upside or strength:** a potential benefit or capability to build on.
-4. **- Downside or gap:** a cost, dependency, limitation or missing capability.
-5. **Next strategic action:** evidence to gather, with an owner and review date.
+1. **Options or possible responses:** label them A, B, C so you can refer to them in the next fields.
+2. **Strengths and constraints:** identify the assets and gaps for each option. The labels adapt to the dimension. On risk cards, examine *safeguards and reversibility* alongside *exposure and consequences*. The benefits and SWOT cards use their own labels.
+3. **What is needed:** state prerequisites, missing evidence and links to other dimensions.
+4. **Direction and reason:** record an emerging choice, or explain why it remains open.
+5. **Next action:** name the evidence, owner and date. Set a decision state: `Open`, `Gathering evidence`, `Direction agreed`, `Deferred` or `N/A`.
 
-A card may have both strengths and gaps. Choose the status that best describes readiness for the next decision; keep both sides visible. Use `? Unknown` when evidence is missing, and explain `N/A`. The signs are discussion aids: do not add them into a score or let several strengths cancel an unresolved prerequisite.
+For example, on **Data → Collect, acquire or label**, a company improving employee expense claims might compare A: labelling historical receipts, B: collecting corrections during normal review, and C: licensing external data. Finance reviewers know the relevant fields, but old labels may be sparse and external data may not match company policy. The company needs to estimate label volume, expert time, reuse rights and privacy requirements. It may choose to capture corrections now while leaving the training decision open.
 
-For example, on **Data → Collect, acquire or label**:
-
-- **Strategic implication:** training a custom purchasing model may require labelled decisions about acceptable substitutions; a service may need less training data but still receive proprietary documents.
-- **+ Upside:** buyers and engineers can define the labels and critical constraints.
-- **- Downside:** historical decisions and delivery outcomes are not linked, and supplier-document reuse rights are unclear.
-- **Readiness:** `? Unknown`.
-- **Next strategic action:** the data lead inventories usable records, labelling effort and rights before the company chooses a build or service route.
-
-This is a fictional illustration, not a reported deployment. The card compares routes and prerequisites; product reviews and trials come after the strategic direction is set.
+The state describes the *decision process*, not whether a capability is ready or a project is approved. The signs are discussion aids, not a numerical score. Product reviews and trials come after a strategic direction and its criteria are set.
 
 ## Follow a complete example
 
-The completed procurement example follows the same eight-sheet layout as the blank toolkit. Its 42 cards examine whether and how a fictional manufacturer should invest in AI for purchasing decisions. The overview connects requirements, upsides, downsides and unknowns into a conditional strategic direction. No product, provider or trial is selected.
+The completed expense-claims example has the same fifteen-page layout as the blank toolkit. Its 42 cards examine whether and how a fictional 1,200-person company should invest in AI-assisted expense claims. It compares process improvement, current software, SaaS, internal adaptation and partnership. The overview gives a conditional direction: start with reversible receipt extraction and staff confirmation, subject to data, value and ownership evidence. No product, provider or trial is selected.
 
-It is a **fictional teaching scenario**. Roles, capabilities and organisational conditions are illustrative assumptions; no measured performance or deployment is claimed. `+ Supported` indicates a strength or known prerequisite within the scenario, not proof that AI will work. Many cards correctly remain `? Unknown` or `- Gap` after being filled in. A completed sheet is not the same as a resolved issue.
-
-Use it to understand the level of strategic reasoning, not to copy its assumptions or choices into another organisation.
+This is a **fictional teaching scenario**. It illustrates strategic reasoning; it does not claim measured performance or deployment. Many cards remain in `Gathering evidence` even though they are fully written, because the company still has work to do before implementation.
 
 ## Suggested working session
 
@@ -114,13 +110,13 @@ Use one set per opportunity. Compare multiple overview canvases when making port
 
 ## Using the files
 
-All eight sheets are interactive PDF forms, designed at **A3 landscape** for a workshop table or screen. Print at A3 for comfortable handwriting. A4 printing reduces both text and writing space.
+All fifteen pages are interactive PDF forms, designed at **A3 landscape** for a workshop table or screen. Print at A3 for comfortable handwriting. A4 printing reduces both text and writing space.
 
 Use a PDF reader that supports forms; save and reopen your copy to check that entries were retained. Keep entries concise and put longer evidence in linked project records. The overview is page 1 of the toolkit; print that page alone when you only need the summary.
 
 ## For instructors and facilitators
 
-The [instructor guide](https://raw.githubusercontent.com/dorienh/aiSTROM/main/instructor-kit/aiSTROM-instructor-guide.pdf) includes a session plan, learning outcomes, discussion prompts, and predictive-AI and procurement exercises. Start with the visual sheets and use the guide to facilitate a class or workshop.
+The [instructor guide](https://raw.githubusercontent.com/dorienh/aiSTROM/main/instructor-kit/aiSTROM-instructor-guide.pdf) includes a session plan, learning outcomes, discussion prompts, and predictive-AI and expense-claims exercises. Start with the visual sheets and use the guide to facilitate a class or workshop.
 
 ## Feedback
 
