@@ -69,10 +69,6 @@ The outcome is a portfolio: prototype the low-risk, high-value project now, prep
 
 *Original aiSTROM roadmap, Herremans (2021), Figure 1, reproduced from the [open author version](https://arxiv.org/abs/2107.06071) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
-## Feedback
-
-Which decision did the sheets change? Where did you need more space or a clearer prompt? Share feedback through the [project website](https://dorienherremans.com/aiSTROM), removing confidential information.
-
 ## Reference
 
 Herremans, D. (2021). **aiSTROM - A Roadmap for Developing a Successful AI Strategy.** *IEEE Access*, 9, 155826-155838. [Published paper](https://doi.org/10.1109/ACCESS.2021.3127548) · [Open author version](https://arxiv.org/abs/2107.06071).
