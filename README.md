@@ -10,14 +10,27 @@ aiSTROM, published in [IEEE Access in 2021](https://doi.org/10.1109/ACCESS.2021.
 
 This toolkit turns the paper into fillable worksheets that follow its structure and terminology. Additions that reflect technology since 2021 (generative AI, agents) are marked as 2026 notes.
 
-## Start here: two PDFs, no installation
+## Start here: three PDFs, no installation
 
 **[Download everything as a ZIP](https://raw.githubusercontent.com/dorienh/aiSTROM/main/aiSTROM-visual-toolkit-v2.0.zip)**
 
 1. **[aiSTROM worksheets](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/aiSTROM-visual-toolkit.pdf)**: 10 fillable A3 pages.
 2. **[Completed example: AI for expense claims](https://raw.githubusercontent.com/dorienh/aiSTROM/main/starter-kit/examples/expense-claims-visual-toolkit.pdf)**: a fictional company works through the whole roadmap.
+3. **[Instructor guide](https://raw.githubusercontent.com/dorienh/aiSTROM/main/instructor-kit/aiSTROM-instructor-guide.pdf)**: a 90-minute session plan, facilitation prompts and four workshop exercises.
 
 Save the PDFs and open them in a reader that supports forms. Print at A3 for workshops.
+
+**Who it is for:** managers deciding where to invest in AI, lead developers and consultants scoping AI projects, and lecturers teaching AI strategy.
+
+## Run a session
+
+1. **Gather a mixed team:** people who know the business and people who know AI.
+2. **Sheet 1 (15 min):** list ideas, score impact and effort, shortlist three.
+3. **Sheets 2-7 (30-45 min):** split the team; each pair fills two sheets for all three projects.
+4. **Sheet 9 (15 min):** plot risk against benefit, run a SWOT and decide per project. Uncertain projects usually start with a prototype.
+5. **Sheet 8:** plan education and adoption before anything goes live.
+
+You don't need to fill every box in one meeting. Revisit the sheets as prototypes and KPIs bring new evidence.
 
 ## The sheets
 
@@ -63,6 +76,20 @@ Which decision did the sheets change? Where did you need more space or a clearer
 ## Reference
 
 Herremans, D. (2021). **aiSTROM - A Roadmap for Developing a Successful AI Strategy.** *IEEE Access*, 9, 155826-155838. [Published paper](https://doi.org/10.1109/ACCESS.2021.3127548) · [Open author version](https://arxiv.org/abs/2107.06071).
+
+## Cite
+
+```bibtex
+@article{herremans2021aistrom,
+  author  = {Herremans, Dorien},
+  title   = {aiSTROM--A Roadmap for Developing a Successful AI Strategy},
+  journal = {IEEE Access},
+  volume  = {9},
+  pages   = {155826--155838},
+  year    = {2021},
+  doi     = {10.1109/ACCESS.2021.3127548}
+}
+```
 
 ## Reuse
 
